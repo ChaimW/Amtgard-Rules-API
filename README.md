@@ -1,3 +1,15 @@
-# Amtgard Rules API
-v0.0.1 - Initial setup
+# Amtgard-Rules-API
+A system for automatically updating reference tools for Amtgard. Created by the Wizard of Hats, based on extensive work done by Lord Kismet of Felfrost.
+
+
+## Documentation
+Coming Soon(tm)
+
+
+## Implementations
+None Yet
+
+
+## Version History
+0.1.0 - Initial setup
 
