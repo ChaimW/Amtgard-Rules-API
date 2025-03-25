@@ -1,0 +1,191 @@
+{
+  "apex": {
+    "name": "Apex",
+    "class": "Scout",
+    "effects": {
+      
+    }
+  },
+  "artificer": {
+    "name": "Artificer",
+    "class": "Archer",
+    "effects": {
+      
+    }
+  },
+  "avatarofnature": {
+    "name": "Avatar of Nature",
+    "class": "Druid",
+    "effects": {
+      
+    }
+  },
+  "battlemage": {
+    "name": "Battlemage",
+    "class": "Wizard",
+    "effects": {
+      
+    }
+  },
+  "berserker": {
+    "name": "Berserker",
+    "class": "Barbarian",
+    "effects": {
+      
+    }
+  },
+  "combatcaster": {
+    "name": "Combat Caster",
+    "class": "Bard",
+    "effects": {
+      
+    }
+  },
+  "corruptor": {
+    "name": "Corruptor",
+    "class": "AntiPaladin",
+    "effects": {
+      
+    }
+  },
+  "dervish": {
+    "name": "Dervish",
+    "class": "Bard",
+    "effects": {
+      
+    }
+  },
+  "evoker": {
+    "name": "Evoker",
+    "class": "Wizard",
+    "effects": {
+      
+    }
+  },
+  "guardian": {
+    "name": "Guardian",
+    "class": "Paladin",
+    "effects": {
+      
+    }
+  },
+  "infernal": {
+    "name": "Infernal",
+    "class": "AntiPaladin",
+    "effects": {
+      
+    }
+  },
+  "inquisitor": {
+    "name": "Inquisitor",
+    "class": "Paladin",
+    "effects": {
+      
+    }
+  },
+  "juggernaut": {
+    "name": "Juggernaut",
+    "class": "Warrior",
+    "effects": {
+      
+    }
+  },
+  "legend": {
+    "name": "Legend",
+    "class": "Bard",
+    "effects": {
+      
+    }
+  },
+  "marauder": {
+    "name": "Marauder",
+    "class": "Warrior",
+    "effects": {
+      
+    }
+  },
+  "medium": {
+    "name": "Medium",
+    "class": "Monk",
+    "effects": {
+      
+    }
+  },
+  "mystic": {
+    "name": "Mystic",
+    "class": "Monk",
+    "effects": {
+      
+    }
+  },
+  "necromancer": {
+    "name": "Necromancer",
+    "class": "Healer",
+    "effects": {
+      
+    }
+  },
+  "priest": {
+    "name": "Priest",
+    "class": "Healer",
+    "effects": {
+      
+    }
+  },
+  "raider": {
+    "name": "Raider",
+    "class": "Barbarian",
+    "effects": {
+      
+    }
+  },
+  "ranger": {
+    "name": "Ranger",
+    "class": "Druid",
+    "effects": {
+      
+    }
+  },
+  "ruffian": {
+    "name": "Ruffian",
+    "class": "Assassin",
+    "effects": {
+      
+    }
+  },
+  "sniper": {
+    "name": "Sniper",
+    "class": "Archer",
+    "effects": {
+      
+    }
+  },
+  "spy": {
+    "name": "Spy",
+    "class": "Assassin",
+    "effects": {
+      
+    }
+  },
+  "summoner": {
+    "name": "Summoner",
+    "class": "Druid",
+    "effects": {
+      
+    }
+  },
+  "warder": {
+    "name": "Warder",
+    "class": "Healer",
+    "effects": {
+      
+    }
+  },
+  "warlock": {
+    "name": "Warlock",
+    "class": "Wizard",
+    "effects": {
+      
+    }
+  }
+}
