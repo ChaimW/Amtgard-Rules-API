@@ -23,7 +23,7 @@
     "r": "Other",
     "i": "\"I enchant thee with this blessing\" x3",
     "m": "White Strip",
-    "e": "Bearer becomes <a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit.",
+    "e": "Bearer becomes <ability>Resistant</ability> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit.",
     "l": "May not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)."
   },
   "adaptiveprotection": {
@@ -51,7 +51,7 @@
     "r": "Self",
     "i": "\"Adrenaline\"",
     "e": "Player heals a wound.",
-    "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>."
+    "l": "<definition>Kill Trigger</definition>."
   },
   "agoraphobia": {
     "name": "Agoraphobia",
@@ -76,7 +76,7 @@
     "r": "Touch",
     "i": "\"My power amplifies thy voice\" x3",
     "m": "Yellow Strip",
-    "e": "Bearer gains <a href=\"/spells/e#extension\" data-ajax=\"false\">Extension</a> 1/refresh Charge x3. Other sources of Extension may not be utilized while Amplification is worn.",
+    "e": "Bearer gains <ability>Extension</ability> 1/Refresh Charge x3. Other sources of Extension may not be utilized while Amplification is worn.",
     "n": "Does not use up any purchased instances of Extension."
   },
   "ambulant": {
@@ -118,8 +118,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/m#mutation\" data-ajax=\"false\">Mutation</a> (T) and <a href=\"/spells/a#adaptiveblessing\" data-ajax=\"false\">Adaptive Blessing</a> (Self) 1/Life Charge x5 (ex) (Swift).",
-    "l": "Lose all instances of <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>, <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a>, <a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a>, and <a href=\"/spells/a#adaptiveprotection\" data-ajax=\"false\">Adaptive Protection</a>"
+    "e": "Gain <ability>Mutation</ability> (T) and <ability>Adaptive Blessing</ability> (Self) 1/Life Charge x5 (ex) (Swift).",
+    "l": "Lose all instances of <ability>Evolution</ability>, <ability>Hold Person</ability>, <ability>Pinning Arrow</ability>, and <ability>Adaptive Protection</ability>"
   },
   "artificer": {
     "name": "Artificer",
@@ -129,9 +129,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May wield a <a href=\"/shields/\" data-ajax=\"false\">Small Shield</a>. Gain <a href=\"/spells/g#greatermend\" data-ajax=\"false\">Greater Mend</a> 2/Refresh Charge x10 (ex). <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> becomes 2/Life Charge x3 (ex).<br>Casting Mend on Weapons or Shields does not consume a use of Mend.",
-    "l": "Rather than the normal amount of Specialty Arrows for an Archer, gain:<ul><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> 3 Arrows / Unlimited (ex)</li><li><a href=\"/spells/p#phasearrow\" data-ajax=\"false\">Phase Arrow</a> 1 Arrow / Unlimited (ex)</li><li><a href=\"/spells/s#suppressionarrow\" data-ajax=\"false\">Suppression Arrow</a> 1 Arrow / Unlimited (ex)</li></ul>Look the Part becomes a fourth Pinning Arrow.",
-    "n": "Player must still have a use of <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> remaining to cast on weapons or shields."
+    "e": "May wield a <a href=\"/shields/\" data-ajax=\"false\">Small Shield</a>. Gain <ability>Greater Mend</ability> 2/Refresh Charge x10 (ex). <ability>Mend</ability> becomes 2/Life Charge x3 (ex).<br>Casting Mend on Weapons or Shields does not consume a use of Mend.",
+    "l": "Rather than the normal amount of Specialty Arrows for an Archer, gain:<ul><li><ability>Pinning Arrow</ability> 3 Arrows / Unlimited (ex)</li><li><ability>Phase Arrow</ability> 1 Arrow / Unlimited (ex)</li><li><ability>Suppression Arrow</ability> 1 Arrow / Unlimited (ex)</li></ul>Look the Part becomes a fourth Pinning Arrow.",
+    "n": "Player must still have a use of <ability>Mend</ability> remaining to cast on weapons or shields."
   },
   "assassinate": {
     "name": "Assassinate",
@@ -285,8 +285,8 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant).",
-    "l": "May not wear Armor, and loses all instances of <a href=\"/spells/b#bloodandthunder\" data-ajax=\"false\">Blood and Thunder</a>"
+    "e": "Gain <ability>Momentum</ability> Unlimited (ex) (Ambulant).",
+    "l": "May not wear Armor, and loses all instances of <ability>Blood and Thunder</ability>"
   },
   "blessedaura": {
     "name": "Blessed Aura",
@@ -299,7 +299,7 @@
     "r": "Other",
     "i": "\"I enchant thy person, arms, and armor\" x3",
     "m": "White Strip",
-    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, State, or negatively affect them or their carried or worn equipment. Does not trigger against effects cast by the player"
+    "e": "<ability>Resistant</ability> to all effects from the next source which would inflict a Wound, Death, State, or negatively affect them or their carried or worn equipment. Does not trigger against effects cast by the player."
   },
   "blessingagainstharm": {
     "name": "Blessing Against Harm",
@@ -312,7 +312,7 @@
     "r": "Other",
     "i": "\"I enchant thee against all harm\" x3",
     "m": "White Strip",
-    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, State, or other negative effect. Does not trigger against effects cast by the player"
+    "e": "<definition>Resistant</definition> to all effects from the next source which would inflict a Wound, Death, State, or other negative effect. Does not trigger against effects cast by the player"
   },
   "blessingagainstwounds": {
     "name": "Blessing Against Wounds",
@@ -326,7 +326,7 @@
     "r": "Other",
     "i": "\"I enchant thee against wounds\" x3",
     "m": "White Strip",
-    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to Wounds. Does not count towards a players Enchantment limit",
+    "e": "<definition>Resistant</definition> to Wounds. Does not count towards a players Enchantment limit",
     "l": "May not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)"
   },
   "blink": {
@@ -353,8 +353,8 @@
     "s": "Spirit",
     "r": "Self",
     "i": "\"Blood and Thunder!\"",
-    "e": "Player gains <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing Against Wounds</a>",
-    "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>",
+    "e": "Player gains <ability>Blessing Against Wounds</ability>",
+    "l": "<definition>Kill Trigger</definition>",
     "n": "Player must still wear a white strip to denote Blessing Against Wounds"
   },
   "breakconcentration": {
@@ -382,8 +382,8 @@
     "r": "Unlimited",
     "i": "\"And stay down!\"",
     "e": "Victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Victim is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds",
-    "l": "<a href=\"/spells/definitions#woundtrigger\" data-ajax=\"false\">Wound Trigger</a>",
-    "n": "Brutal Strike targets the wounded or dead player and does not require verbal targeting"
+    "l": "<definition>Wound Trigger</definition>",
+    "n": "Brutal Strike targets the wounded or dead player and does not require verbal targeting."
   },
   "calllightning": {
     "name": "Call Lightning",
@@ -467,12 +467,12 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/v#voidtouched\" data-ajax=\"false\">Void Touched</a> (Self) 2/Refresh (m). All uses of <a href=\"/spells/t#terror\" data-ajax=\"false\">Terror</a> become 1/Life Charge x10 (m).",
-    "l": "May not wield Great Weapons or Javelins and loses all instances of <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a>"
+    "e": "Gain <ability>Void Touched</ability> (Self) 2/Refresh (m). All uses of <ability>Terror</ability> become 1/Life Charge x10 (m).",
+    "l": "May not wield Great Weapons or Javelins and loses all instances of <ability>Flame Blade</ability>."
   },
   "coupdegrace": {
     "name": "Coup de Grace",
-    "keywords": "some lowercase separated words used to search",
+    "keywords": "assassin verbal death wound",
     "classes": {
       "Assassin": "6"
     },
@@ -481,8 +481,8 @@
     "r": "20'",
     "i": "\"Death shall come for thee\" x3",
     "e": "Target player dies",
-    "l": "Target must be Wounded when the caster begins the Incantation",
-    "n": "Even if the target has no Wounds by the end of the Incantation they still die"
+    "l": "Target must be Wounded when the caster begins the Incantation.",
+    "n": "Even if the target has no Wounds by the end of the Incantation they still die."
   },
   "dervish": {
     "name": "Dervish",
