@@ -2,11 +2,13 @@ Some portions of the Amtgard Rules of Play are Copyright and/or Trademarks of Am
 and used persuant to Fair Use. No intent exists to derive any monetary or other financial benefit
 from this project.
 
+----
+
 This project is, at least conceptually, based on parts of the code for Easygard, a project of Ken Walker, also known as Lord Kismet Senchu of Felfrost.
 
 ----
 
-MIT License
+## MIT License
 
 Except as otherwise noted above, Copyright (c) 2025 Chaim S Weinberg, also known as The Wizard of Hats
 
