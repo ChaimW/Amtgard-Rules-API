@@ -1,0 +1,113 @@
+{
+  "potionofbarkskin": {
+    "name": "Potion of Barkskin",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A bottle measuring at least two cubic inches",
+    "incant": "I drink a potion of barkskin",
+    "effect": "Player receives the <ability>Barkskin</ability> Enchantment."
+  },
+  "potionofrefreshment": {
+    "name": "Potion of Refreshment",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A bottle measuring at least two cubic inches",
+    "incant": "I drink a potion of refreshment",
+    "effect": "Player may instantly Charge a single Magic or Ability."
+  },
+  "potionofhealing": {
+    "name": "Potion of Healing",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A bottle measuring at least two cubic inches",
+    "incant": "I drink a potion of healing",
+    "effect": "Player is affected as per <ability>Heal</ability>."
+  },
+  "potionoftruedeath": {
+    "name": "Potion of True Death",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A bottle measuring at least two cubic inches",
+    "incant": "I drink a potion of true death",
+    "effect": "Player may not be the target of <ability>Raise Dead, <ability>Steal Life Essence</ability>, <ability>Undead Minion</ability>, or <ability>Vampirism</ability> for the duration of the game.",
+    "note": "This effect is not removed by <ability>Release</ability>, <ability>Greater Release</ability>, or Respawn."
+  },
+  "scrollofadaptiveblessing": {
+    "name": "Scroll of Adaptive Blessing",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A scroll measuring at least fifteen square inches",
+    "incant": "I read from a scroll of adaptive blessing",
+    "effect": "Player receives the <ability>Adaptive Blessing</ability> Enchantment."
+  },
+  "scrollofambulant": {
+    "name": "Scroll of Ambulant",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A scroll measuring at least fifteen square inches",
+    "incant": "I read from a scroll of ambulant",
+    "effect": "Player's next magic is affected as per <ability>Ambulant</ability>.",
+    "limitation": "May only be used by Magic Users."
+  },
+  "scrollofblessingagainstwounds": {
+    "name": "Scroll of Blessing Against Wounds",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A scroll measuring at least fifteen square inches",
+    "incant": "I read from a scroll of blessing against wounds",
+    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment."
+  },
+  "scrollofextension": {
+    "name": "Scroll of Extension",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A scroll measuring at least fifteen square inches",
+    "incant": "I read from a scroll of extension",
+    "effect": "Player's next magic is affected as per <ability>Extension</ability>.",
+    "limitation": "May only be used by Magic Users."
+  },
+  "scrollofblessingagainstwounds": {
+    "name": "Scroll of Blessing Against Wounds",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A scroll measuring at least fifteen square inches",
+    "incant": "I read from a scroll of blessing against wounds",
+    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment."
+  },
+  "scrollofmend": {
+    "name": "Scroll of Mend",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A scroll measuring at least fifteen square inches",
+    "incant": "I read from a scroll of mend",
+    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment.",
+    "note": ""
+  },
+  "scrollofmend": {
+    "name": "Scroll of Mend",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A scroll measuring at least fifteen square inches",
+    "incant": "I read from a scroll of mend",
+    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment.",
+    "note": ""
+  },
+  "scrollofmend": {
+    "name": "Scroll of Mend",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A scroll measuring at least fifteen square inches",
+    "incant": "I read from a scroll of mend",
+    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment.",
+    "note": ""
+  },
+  "scrollofmend": {
+    "name": "Scroll of Mend",
+    "type": "Trinket",
+    "use": "One Use",
+    "material": "A scroll measuring at least fifteen square inches",
+    "incant": "I read from a scroll of mend",
+    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment.",
+    "note": ""
+  }
+}

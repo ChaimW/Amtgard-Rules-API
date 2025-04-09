@@ -1,0 +1,635 @@
+{
+  "AntiPaladin": {
+    "name": "Anti-Paladin",
+    "description": "The Anti-Paladin class is designed for aggressive front-line combat, with a focus on offense and disrupting enemies.",
+    "examples": [
+      "Mordred",
+      "the Black Knight",
+      "Sir Francis Dashwood",
+      "Xolotl"
+    ],
+    "type": "Martial",
+    "restricted": true,
+    "armor": 4,
+    "shields": "large",
+    "sash": "silver, metallic",
+    "symbols": {
+      "knight": [
+        "black phoenix",
+        "white belt"
+      ],
+      "paragon": "silver sash with gold trim",
+      "apprentice": "silver belt favor with gold trim"
+    },
+    "weapons": [
+      "All Melee",
+      "Javelins"
+    ],
+    "abilites": {
+      "look the part": [
+        {
+          "ability": "terror",
+          "frequency": {
+            "qty": 1,
+            "period": "life"
+          },
+          "category": "m"
+        }
+      ],
+      "1st level": [
+        {
+          "name": "Immune to Command",
+          "category": "T"
+        },
+        {
+          "name": "Immune to Flame",
+          "category": "T"
+        }
+      ],
+      "2nd level": [
+        {
+          "ability": "poison",
+          "range": "self",
+          "frequency": {
+            "qty": 1,
+            "period": "life",
+            "charge": 3
+          },
+          "category": "ex"
+        }
+      ],
+      "3rd level": [
+        {
+          "ability": "steallifeessence",
+          "frequency": {
+            "qty": 1,
+            "period": "life",
+            "charge": 5
+          },
+          "category": "m"
+        }
+      ],
+      "4th level": [
+        {
+          "ability": "brutalstrike",
+          "frequency": {
+            "qty": 1,
+            "period": "life",
+            "charge": 10
+          },
+          "category": "ex",
+          "notes": "Ambulant"
+        }
+      ],
+      "5th level": [
+        {
+          "ability": "terror",
+          "frequency": {
+            "qty": 1,
+            "period": "life"
+          },
+          "category": "m"
+        }
+      ],
+      "6th level": [
+        {
+          "ability": "flameblade",
+          "range": "self",
+          "frequency": {
+            "qty": 1,
+            "period": "refresh"
+          },
+          "category": "ex"
+        },
+        {
+          "choose": {
+            "optional": true,
+            "pick": 1,
+            "options": [
+              {
+                "ability": "infernal",
+                "category": "A"
+              },
+              {
+                "ability": "corruptor",
+                "category": "A"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Archer": {
+    "name": "Archer",
+    "description": "The Archer class is designed for ranged combat, with a focus on strategic use of enhanced arrows.",
+    "reminder": "All Specialty Arrow incantations are treated as Ambulant but do not require the statement of \"Ambulant\" before their incantation.",
+    "examples": [
+      "William Tell",
+      "Odysseus",
+      "Paris of Troy",
+      "Minamoto Tametomo"
+    ],
+    "type": "Martial",
+    "armor": 2,
+    "shields": "none",
+    "sash": "orange",
+    "symbols": {
+      "paragon": "orange sash with silver trim",
+      "apprentice": "orange belt favor with silver trim"
+    },
+    "weapons": [
+      "Dagger",
+      "Short",
+      "Bow"
+    ],
+    "abilites": {
+      "look the part": [
+        {
+          "choose": {
+            "pick": 1,
+            "options": [
+              {
+                "ability": "destructionarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              },
+              {
+                "ability": "pinningarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              },
+              {
+                "ability": "poisonarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              }
+            ]
+          }
+        }
+      ],
+      "1st level": [
+        {
+          "ability": "reload",
+          "frequency": {
+            "qty": 1,
+            "period": "refresh",
+            "charge": 3
+          },
+          "category": "ex"
+        },
+        {
+          "choose": {
+            "pick": 2,
+            "options": [
+              {
+                "ability": "destructionarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              },
+              {
+                "ability": "pinningarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              },
+              {
+                "ability": "poisonarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              }
+            ]
+          }
+        }
+      ],
+      "2nd level": [
+        {
+          "ability": "mend",
+          "frequency": {
+            "qty": 1,
+            "period": "life",
+            "charge": 5
+          },
+          "category": "ex"
+        }
+      ],
+      "3rd level": [
+        {
+          "choose": {
+            "pick": 2,
+            "options": [
+              {
+                "ability": "destructionarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              },
+              {
+                "ability": "pinningarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              },
+              {
+                "ability": "poisonarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              }
+            ]
+          }
+        }
+      ],
+      "4th level": [
+        {
+          "ability": "suppressionarrow",
+          "frequency": {
+            "qty": 1,
+            "item": "arrow",
+            "period": "unlimmited"
+          },
+          "category": "ex"
+        }
+      ],
+      "5th level": [
+        {
+          "choose": {
+            "pick": 2,
+            "options": [
+              {
+                "ability": "destructionarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              },
+              {
+                "ability": "pinningarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              },
+              {
+                "ability": "poisonarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              }
+            ]
+          }
+        }
+      ],
+      "6th level": [
+        {
+          "ability": "phasearrow",
+          "frequency": {
+            "qty": 1,
+            "item": "arrow",
+            "period": "unlimmited"
+          },
+          "category": "ex"
+        },
+        {
+          "choose": {
+            "optional": true,
+            "pick": 1,
+            "options": [
+              {
+                "ability": "sniper",
+                "category": "A"
+              },
+              {
+                "ability": "artificer",
+                "category": "A"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Assassin": {
+    "name": "Assassin",
+    "description": "The Assassin class is designed for high-mobility, stealth-based play, with a focus on precision and hit-and-run tactics.",
+    "examples": [
+      "Ninja",
+      "Hassan-I-Sabah",
+      "Inaros",
+      "Loki"
+    ],
+    "type": "Martial",
+    "armor": 2,
+    "shields": "none",
+    "sash": "black",
+    "symbols": {
+      "paragon": "black sash with silver trim",
+      "apprentice": "black belt favor with silver trim"
+    },
+    "weapons": [
+      "Dagger",
+      "Short",
+      "Long",
+      "Light Thrown",
+      "Heavy Thrown",
+      "Bow"
+    ],
+    "abilites": {
+      "look the part": [
+        {
+          "choose": {
+            "pick": 1,
+            "options": [
+              {
+                "ability": "poison",
+                "range": "self",
+                "frequency": {
+                  "qty": 1,
+                  "period": "life",
+                  "charge": 3
+                },
+                "category": "ex"
+              },
+              {
+                "ability": "poisonarrow",
+                "frequency": {
+                  "qty": 1,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              }
+            ]
+          }
+        }
+      ],
+      "1st level": [
+        {
+          "ability": "Trickery",
+          "category": "T"
+        },
+        {
+          "ability": "assassinate",
+          "frequency": {
+            "period": "unlimited"
+          },
+          "category": "ex",
+          "notes": "Ambulant"
+        },
+        {
+          "ability": "shadowstep",
+          "frequency": {
+            "qty": 2,
+            "period": "life"
+          },
+          "category": "ex"
+        }
+      ],
+      "2nd level": [
+        {
+          "choose": {
+            "pick": 1,
+            "options": [
+              {
+                "ability": "poison",
+                "range": "self",
+                "frequency": {
+                  "qty": 1,
+                  "period": "life",
+                  "charge": 3
+                },
+                "category": "ex"
+              },
+              {
+                "ability": "poisonarrow",
+                "frequency": {
+                  "qty": 2,
+                  "item": "arrow",
+                  "period": "unlimmited"
+                },
+                "category": "ex"
+              }
+            ]
+          }
+        }
+      ],
+      "3rd level": [
+        {
+          "ability": "blink",
+          "frequency": {
+            "qty": 2,
+            "period": "life"
+          },
+          "category": "ex",
+          "notes": "Ambulant"
+        }
+      ],
+      "4th level": [
+        {
+          "ability": "holdperson",
+          "frequency": {
+            "qty": 1,
+            "period": "life"
+          },
+          "category": "m"
+        }
+      ],
+      "5th level": [
+        {
+          "ability": "teleport",
+          "range": "self",
+          "frequency": {
+            "qty": 2,
+            "period": "life"
+          },
+          "category": "ex"
+        }
+      ],
+      "6th level": [
+        {
+          "ability": "coupdegrace",
+          "frequency": {
+            "qty": 1,
+            "period": "life"
+          },
+          "category": "m"
+        },
+        {
+          "choose": {
+            "optional": true,
+            "pick": 1,
+            "options": [
+              {
+                "ability": "ruffian",
+                "category": "A"
+              },
+              {
+                "ability": "spy",
+                "category": "A"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Barbarian": {
+    "name": "Barbarian",
+    "description": "The Barbarian class is designed for aggressive front-line fighting, with a focus on melee fighting and endurance.",
+    "examples": [
+      "Leif Eriksson",
+      "Attila the Hun",
+      "Alaric the Vandal"
+    ],
+    "type": "Martial",
+    "armor": 3,
+    "shields": "Medium",
+    "sash": "white",
+    "symbols": {
+      "paragon": "white sash with silver trim",
+      "apprentice": "white belt favor with silver trim"
+    },
+    "weapons": [
+      "All Melee",
+      "Javelins",
+      "Rocks"
+    ],
+    "abilites": {
+      "look the part": [
+        {
+          "ability": "rage",
+          "frequency": {
+            "qty": 1,
+            "period": "refresh",
+            "charge": 10
+          },
+          "category": "ex",
+          "notes": "Ambulant"
+        }
+      ],
+      "1st level": [
+        {
+          "ability": "berserk",
+          "category": "T"
+        },
+        {
+          "name": "Immune to Command",
+          "category": "T"
+        },
+        {
+          "name": "Immune to Subdual",
+          "category": "T"
+        }
+      ],
+      "2nd level": [
+        {
+          "ability": "rage",
+          "frequency": {
+            "qty": 1,
+            "period": "refresh",
+            "charge": 10
+          },
+          "category": "ex",
+          "notes": "Ambulant"
+        }
+      ],
+      "3rd level": [
+        {
+          "ability": "blink",
+          "frequency": {
+            "qty": 2,
+            "period": "life"
+          },
+          "category": "ex",
+          "notes": "Ambulant"
+        }
+      ],
+      "4th level": [
+        {
+          "ability": "holdperson",
+          "frequency": {
+            "qty": 1,
+            "period": "life"
+          },
+          "category": "m"
+        }
+      ],
+      "5th level": [
+        {
+          "ability": "teleport",
+          "range": "self",
+          "frequency": {
+            "qty": 2,
+            "period": "life"
+          },
+          "category": "ex"
+        }
+      ],
+      "6th level": [
+        {
+          "ability": "coupdegrace",
+          "frequency": {
+            "qty": 1,
+            "period": "life"
+          },
+          "category": "m"
+        },
+        {
+          "choose": {
+            "optional": true,
+            "pick": 1,
+            "options": [
+              {
+                "ability": "ruffian",
+                "category": "A"
+              },
+              {
+                "ability": "spy",
+                "category": "A"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
