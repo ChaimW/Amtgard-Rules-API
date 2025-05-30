@@ -66,13 +66,13 @@
     "effect": "Player's next magic is affected as per <ability>Extension</ability>.",
     "limitation": "May only be used by Magic Users."
   },
-  "scrollofblessingagainstwounds": {
-    "name": "Scroll of Blessing Against Wounds",
+  "scrollofharden": {
+    "name": "Scroll of Harden",
     "type": "Trinket",
     "use": "One Use",
     "material": "A scroll measuring at least fifteen square inches",
-    "incant": "I read from a scroll of blessing against wounds",
-    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment."
+    "incant": "I read from a scroll of harden",
+    "effect": "Player receives the <ability>Harden</ability> Enchantment."
   },
   "scrollofmend": {
     "name": "Scroll of Mend",
@@ -80,34 +80,69 @@
     "use": "One Use",
     "material": "A scroll measuring at least fifteen square inches",
     "incant": "I read from a scroll of mend",
-    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment.",
-    "note": ""
+    "effect": "Target item is affected as per mend."
   },
-  "scrollofmend": {
-    "name": "Scroll of Mend",
-    "type": "Trinket",
-    "use": "One Use",
-    "material": "A scroll measuring at least fifteen square inches",
-    "incant": "I read from a scroll of mend",
-    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment.",
-    "note": ""
+  "amuletofforce": {
+    "name": "Amulet of Force",
+    "type": "Talisman",
+    "use": "1/Game",
+    "material": "Pendant or amulet measuring at least one square inch which must be worn around the neck.",
+    "incant": "\"By my amulet\" + <ability>Force Barrier</ability> Incant",
+    "effect": "As per <ability>Force Barrier</ability>."
   },
-  "scrollofmend": {
-    "name": "Scroll of Mend",
-    "type": "Trinket",
-    "use": "One Use",
-    "material": "A scroll measuring at least fifteen square inches",
-    "incant": "I read from a scroll of mend",
-    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment.",
-    "note": ""
+  "amuletofteleport": {
+    "name": "Amulet of Teleport",
+    "type": "Talisman",
+    "use": "1/Game",
+    "material": "Pendant or amulet measuring at least one square inch which must be worn around the neck.",
+    "incant": "\"By my amulet\" + <ability>Teleport</ability> Incant",
+    "effect": "Player is affected as per <ability>Teleport</ability>."
   },
-  "scrollofmend": {
-    "name": "Scroll of Mend",
-    "type": "Trinket",
-    "use": "One Use",
-    "material": "A scroll measuring at least fifteen square inches",
-    "incant": "I read from a scroll of mend",
-    "effect": "Player receives the <ability>Blessing Against Wounds</ability> Enchantment.",
-    "note": ""
+  "amuletoftracking": {
+    "name": "Amulet of Tracking",
+    "type": "Talisman",
+    "use": "1/Game",
+    "material": "Pendant or amulet measuring at least one square inch which must be worn around the neck.",
+    "incant": "\"By my amulet\" + <ability>Tracking</ability> Incant",
+    "effect": "As per <ability>Tracking</ability> (ex)."
+  },
+  "amuletofshadows": {
+    "name": "Amulet of Shadows",
+    "type": "Talisman",
+    "use": "1/Game",
+    "material": "Pendant or amulet measuring at least one square inch which must be worn around the neck.",
+    "incant": "\"By my amulet\" + <ability>Shadow Step</ability> Incant",
+    "effect": "As per <ability>Shadow Step</ability>."
+  },
+  "braceletofantimagic": {
+    "name": "Bracelet of Anti-Magic",
+    "type": "Talisman",
+    "use": "1/Game",
+    "material": "Bracelet measuring at least 1\" wide worn around the wrist. Must be made of leather or metal and may not be red, yellow, or white.",
+    "incant": "I draw upon the power of my bracelet of anti-magic",
+    "effect": "Player receives the <ability>Protection From Magic</ability> Enchantment."
+  },
+  "braceletofsolidity": {
+    "name": "Bracelet of Solidity",
+    "type": "Talisman",
+    "use": "Always on while worn",
+    "material": "Bracelet measuring at least 1\" wide worn around the wrist. Must be made of leather or metal and may not be red, yellow, or white.",
+    "effect": "Further Effects which make the player Insubstantial, including effects initiated by the player or beneficial effects, fail as per <ability>Planar Grounding</ability>. Bearer must announce \"Immune to insubstantial\" when this effect is triggered."
+  },
+  "braceletofstoneskin": {
+    "name": "Bracelet of Stoneskin",
+    "type": "Talisman",
+    "use": "1/Game",
+    "material": "Bracelet measuring at least 1\" wide worn around the wrist. Must be made of leather or metal and may not be red, yellow, or white.",
+    "incant": "I draw upon the power of my bracer of stoneskin.",
+    "effect": "Player receives the <ability>Stoneskin</ability> Enchantment."
+  },
+  "braceletofantimagic": {
+    "name": "Bracelet of Anti-Magic",
+    "type": "Talisman",
+    "use": "1/Game",
+    "material": "Bracelet measuring at least 1\" wide worn around the wrist. Must be made of leather or metal and may not be red, yellow, or white.",
+    "incant": "I draw upon the power of my bracelet of anti-magic",
+    "effect": "Player receives the <ability>Protection From Magic</ability> Enchantment."
   }
 }
